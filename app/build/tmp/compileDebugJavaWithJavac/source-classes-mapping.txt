@@ -1,0 +1,15 @@
+com/google/android/youtube/pro/R.java
+ com.google.android.youtube.pro.R
+ com.google.android.youtube.pro.R$color
+ com.google.android.youtube.pro.R$drawable
+ com.google.android.youtube.pro.R$id
+ com.google.android.youtube.pro.R$layout
+ com.google.android.youtube.pro.R$string
+ com.google.android.youtube.pro.R$style
+com/google/android/youtube/pro/MainActivity.java
+ com.google.android.youtube.pro.MainActivity
+ com.google.android.youtube.pro.MainActivity$1
+ com.google.android.youtube.pro.MainActivity$CustomWebClient
+ com.google.android.youtube.pro.MainActivity$WebAppInterface
+com/google/android/youtube/pro/BuildConfig.java
+ com.google.android.youtube.pro.BuildConfig

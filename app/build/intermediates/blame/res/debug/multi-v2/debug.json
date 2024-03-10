@@ -1,0 +1,86 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "3,4,5,1,2",
+                        "startColumns": "1,1,1,1,1",
+                        "startOffsets": "108,152,206,14,59",
+                        "endColumns": "42,52,49,43,47",
+                        "endOffsets": "149,203,254,56,105"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,157,210,257",
+                        "endColumns": "45,55,52,46,50",
+                        "endOffsets": "96,152,205,252,303"
+                    }
+                },
+                {
+                    "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1,8,15,22",
+                        "startColumns": "1,1,1,1",
+                        "startOffsets": "14,466,929,1382",
+                        "endLines": "7,14,21,24",
+                        "endColumns": "9,9,9,9",
+                        "endOffsets": "463,926,1379,1490"
+                    },
+                    "to": {
+                        "startLines": "8,15,22,29",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "378,826,1285,1734",
+                        "endLines": "14,21,28,31",
+                        "endColumns": "9,9,9,9",
+                        "endOffsets": "821,1280,1729,1840"
+                    }
+                },
+                {
+                    "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "1",
+                        "startOffsets": "14",
+                        "endColumns": "66",
+                        "endOffsets": "79"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "308",
+                        "endColumns": "69",
+                        "endOffsets": "373"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/res/merged/debug/values-v28_values-v28.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/values-v28/styles.xml",
+                    "from": {
+                        "startLines": "1,8,15,23",
+                        "startColumns": "1,1,1,1",
+                        "startOffsets": "13,458,914,1435",
+                        "endLines": "7,14,22,25",
+                        "endColumns": "9,9,9,9",
+                        "endOffsets": "456,912,1433,1541"
+                    },
+                    "to": {
+                        "startLines": "2,9,16,24",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,503,962,1486",
+                        "endLines": "8,15,23,26",
+                        "endColumns": "9,9,9,9",
+                        "endOffsets": "498,957,1481,1592"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/res/merged/debug/drawable-xhdpi_app_icon.png.flat",
+        "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/drawable-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/res/merged/debug/drawable-xhdpi_default_image.png.flat",
+        "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/drawable-xhdpi/default_image.png"
+    }
+]

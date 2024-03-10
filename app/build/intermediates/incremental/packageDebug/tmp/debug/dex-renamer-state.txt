@@ -1,0 +1,4 @@
+#Sun Mar 10 10:40:54 ALMT 2024
+base.0=/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+renamed.0=classes.dex
+path.0=classes.dex
