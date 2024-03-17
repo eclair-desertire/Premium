@@ -7,6 +7,92 @@ URI: https://github.com/prateek-chaubey/
 
 /*Few Stupid Inits*/
 
+
+function checkYouTubeURL() {
+  const checkInterval = 1000; // 1000 миллисекунд = 1 секунда
+
+  setInterval(() => {
+    const currentURL = window.location.href; // Получаем текущий URL
+
+    if (currentURL.includes('youtube.com/watch')) {
+        var button = document.querySelector('.icon-button.player-control-play-pause-icon');
+
+        // Получение значения атрибута aria-pressed
+        var ariaPressed = button.getAttribute('aria-pressed');
+        console.log('aria-pressed:', ariaPressed); // Выведет: aria-pressed: false
+
+        // Проверка, равно ли значение 'false'
+        if (ariaPressed === 'false') {
+            console.log('VIDEO STOPPED');
+        } else {
+            email = localStorage.getItem('email');
+            const url = 'http://localhost:8000/analytics/user_coins/'
+            const data ={
+                'email':email
+            };
+            // Выполняем запрос с использованием fetch
+            fetch(url, {
+              method: 'POST', // Указываем метод POST
+              headers: {
+                // Добавляем необходимые заголовки
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(data) // Преобразуем данные в строку JSON для отправки
+            })
+            .then(response => {
+                console.log('REQUEST SENDED');
+              if (!response.ok) {
+                // Обрабатываем HTTP ошибки
+                throw new Error('Network response was not ok');
+              }
+              return response.json(); // Преобразуем ответ в JSON
+            })
+            .then(data => {
+              console.log(data); // Обрабатываем полученные данные
+            })
+            .catch(error => {
+              console.error('There was a problem with your fetch operation:', error);
+            });
+            console.log('VIDEO PLAYING');
+        }
+      console.log('WATCHING VIDEO');
+    } else {
+      console.log('NOT WATCHING VIDEO');
+    }
+  }, checkInterval);
+}
+
+checkYouTubeURL(); // Вызываем функцию
+
+
+
+
+// Функция для проверки текущего URL-адреса
+function checkURL() {
+    // Получаем текущий URL-адрес страницы
+// Найти элемент по классу
+        var emailElements = document.querySelectorAll('.yt-core-attributed-string');
+        var email = localStorage.getItem('email')
+        console.log('EMAIL FROM LOCAL STORAGE: ',email);
+        // Получить содержимое элемента
+        emailElements.forEach(function(element) {
+          // Получить текст каждого элемента
+          var emailText = element.textContent; // или element.innerText
+
+          // Проверить, заканчивается ли текст на '@gmail.com'
+          if (emailText.endsWith('@gmail.com')) {
+            console.log('FOUND EMAIL: ', emailText);
+              if (email != emailText && emailText.length <= 254) {
+                localStorage.setItem('email', emailText);
+              }
+          }
+        });
+
+}
+
+// Запускаем проверку каждые 2 секунды (можно изменить частоту по необходимости)
+setInterval(checkURL, 500);
+console.log("AAAAAAAAAAAAAAAA")
 var YTProVer="3.1";
 if(ytprof1 == undefined && ytprov1 == undefined){
 var ytprof1="";
@@ -680,6 +766,13 @@ function(){
 window.location.hash="download";
 });
 
+/*counter*/
+var premVidElem = document.createElement("div");
+sty(premVidElem);
+premVidElem.style.width="110px";
+premVidElem.innerHTML=`0 <span style="margin-left:8px">Coins<span>`;
+ytproMainDiv.appendChild(premVidElem);
+
 /*PIP Button*/
 var ytproPIPVidElem=document.createElement("div");
 sty(ytproPIPVidElem);
@@ -716,6 +809,8 @@ ytproAudElem.style.opacity=".5";
 ytproAudElem.style.pointerEvents="none";
 ytproDownVidElem.style.opacity=".5";
 ytproDownVidElem.style.pointerEvents="none";
+
+
 }
 else if(ytprof1.length !="" && ytprov1.length !=""){
 ytproAudElem.style.opacity="1";

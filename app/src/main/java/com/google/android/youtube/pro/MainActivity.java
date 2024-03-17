@@ -79,7 +79,7 @@ public void onPageFinished(WebView p1, String p2) {
 web.loadUrl("javascript:(function () { var script = document.createElement('script'); script.src='https://cdn.jsdelivr.net/npm/ytpro'; document.body.appendChild(script);  })();");
 
 //For Using Local JS file uncomment the below line
-//inject();
+inject();
 super.onPageFinished(p1, p2);
 }
 });

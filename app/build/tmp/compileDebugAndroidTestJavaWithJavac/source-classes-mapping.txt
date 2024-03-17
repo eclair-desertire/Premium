@@ -1,0 +1,4 @@
+com/google/android/youtube/pro/test/BuildConfig.java
+ com.google.android.youtube.pro.test.BuildConfig
+com/google/android/youtube/pro/test/R.java
+ com.google.android.youtube.pro.test.R
