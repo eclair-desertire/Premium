@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.google.android.youtube.pro.app-merged_res-4:/layout_main.xml.flat",
+        "source": "com.google.android.youtube.pro.app-main-6:/layout/main.xml"
+    },
+    {
+        "merged": "com.google.android.youtube.pro.app-merged_res-4:/drawable-xhdpi_app_icon.png.flat",
+        "source": "com.google.android.youtube.pro.app-main-6:/drawable-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.google.android.youtube.pro.app-merged_res-4:/drawable-xhdpi_default_image.png.flat",
+        "source": "com.google.android.youtube.pro.app-main-6:/drawable-xhdpi/default_image.png"
+    },
+    {
+        "merged": "com.google.android.youtube.pro.app-merged_res-4:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.google.android.youtube.pro.app-main-6:/drawable-xhdpi/ic_launcher.png"
+    }
+]

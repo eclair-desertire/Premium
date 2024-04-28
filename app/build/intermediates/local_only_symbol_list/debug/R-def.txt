@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorControlHighlight
+color colorControlNormal
+color colorPrimary
+color colorPrimaryDark
+drawable app_icon
+drawable default_image
+drawable ic_launcher
+id web
+layout main
+string app_name
+style AppTheme
+style FullScreen
+style NoActionBar
+style NoStatusBar

@@ -1,0 +1,15 @@
+com.google.android.youtube.pro:style/NoStatusBar = 0x7f060003
+com.google.android.youtube.pro:style/FullScreen = 0x7f060001
+com.google.android.youtube.pro:drawable/ic_launcher = 0x7f020002
+com.google.android.youtube.pro:id/web = 0x7f030000
+com.google.android.youtube.pro:string/app_name = 0x7f050000
+com.google.android.youtube.pro:drawable/app_icon = 0x7f020000
+com.google.android.youtube.pro:color/colorControlNormal = 0x7f010002
+com.google.android.youtube.pro:layout/main = 0x7f040000
+com.google.android.youtube.pro:style/AppTheme = 0x7f060000
+com.google.android.youtube.pro:color/colorPrimaryDark = 0x7f010004
+com.google.android.youtube.pro:color/colorPrimary = 0x7f010003
+com.google.android.youtube.pro:color/colorControlHighlight = 0x7f010001
+com.google.android.youtube.pro:style/NoActionBar = 0x7f060002
+com.google.android.youtube.pro:drawable/default_image = 0x7f020001
+com.google.android.youtube.pro:color/colorAccent = 0x7f010000

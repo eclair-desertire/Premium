@@ -1,4 +1,7 @@
-#Sun Mar 17 19:59:46 ALMT 2024
-base.0=/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+#Sun Apr 28 10:17:40 UZT 2024
+base.0=/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+path.0=0/classes.dex
+path.1=13/classes.dex
 renamed.0=classes.dex
-path.0=classes.dex
+renamed.1=classes2.dex

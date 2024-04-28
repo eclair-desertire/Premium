@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#000000</color>
+    <color name="colorControlHighlight">#000000</color>
+    <color name="colorControlNormal">#000000</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <string name="app_name" translatable="false">YouTube Pro</string>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+		<item name="android:colorPrimary">@color/colorPrimary</item>
+		<item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="android:colorAccent">@color/colorAccent</item>
+		<item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+		<item name="android:colorControlNormal">@color/colorControlNormal</item>
+	</style>
+    <style name="FullScreen" parent="@android:style/Theme.Material.Light.NoActionBar.Fullscreen">
+		<item name="android:colorPrimary">@color/colorPrimary</item>
+		<item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="android:colorAccent">@color/colorAccent</item>
+		<item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+		<item name="android:colorControlNormal">@color/colorControlNormal</item>
+	</style>
+    <style name="NoActionBar" parent="@android:style/Theme.Material.Light.NoActionBar">
+		<item name="android:colorPrimary">@color/colorPrimary</item>
+		<item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="android:colorAccent">@color/colorAccent</item>
+		<item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+		<item name="android:colorControlNormal">@color/colorControlNormal</item>
+	</style>
+    <style name="NoStatusBar" parent="AppTheme">
+		<item name="android:windowFullscreen">true</item>
+	</style>
+</resources>

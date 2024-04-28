@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.android.youtube.pro"
+4    android:versionCode="1"
+5    android:versionName="3.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:4:2-63
+11-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:4:19-61
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:5:2-68
+12-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:5:19-65
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:6:2-77
+13-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:6:19-74
+14
+15    <application
+15-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:7:2-27:16
+16        android:allowBackup="true"
+16-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:8:3-29
+17        android:debuggable="true"
+18        android:extractNativeLibs="true"
+19        android:icon="@drawable/ic_launcher"
+19-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:10:3-39
+20        android:label="Premium"
+20-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:9:3-26
+21        android:largeHeap="true"
+21-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:11:3-27
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme"
+23-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:13:3-34
+24        android:usesCleartextTraffic="true" >
+24-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:12:3-38
+25        <activity
+25-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:14:3-26:14
+26            android:name="com.google.android.youtube.pro.MainActivity"
+26-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:15:4-32
+27            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+27-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:16:4-97
+28            android:exported="true"
+28-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:20:25-48
+29            android:hardwareAccelerated="true"
+29-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:17:4-38
+30            android:screenOrientation="portrait"
+30-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:21:4-40
+31            android:supportsPictureInPicture="true"
+31-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:18:4-43
+32            android:theme="@style/NoActionBar" >
+32-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:19:11-45
+33            <intent-filter>
+33-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:22:4-25:20
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:23:5-56
+34-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:23:13-54
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:24:5-64
+36-->/Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:24:15-62
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

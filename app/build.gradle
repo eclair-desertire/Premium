@@ -10,6 +10,7 @@ android {
 		targetSdkVersion 31
 		versionCode 1
 		versionName "3.3"
+		namespace "com.google.android.youtube.pro"
 	}
 	buildTypes {
 		release {
@@ -20,4 +21,4 @@ android {
 }
 
 dependencies {
-	}
+}

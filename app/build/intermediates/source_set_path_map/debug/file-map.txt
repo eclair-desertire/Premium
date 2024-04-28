@@ -1,0 +1,7 @@
+com.google.android.youtube.pro.app-pngs-0 /Users/eclair/Documents/GitHub/Premium/app/build/generated/res/pngs/debug
+com.google.android.youtube.pro.app-resValues-1 /Users/eclair/Documents/GitHub/Premium/app/build/generated/res/resValues/debug
+com.google.android.youtube.pro.app-packageDebugResources-2 /Users/eclair/Documents/GitHub/Premium/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.google.android.youtube.pro.app-packageDebugResources-3 /Users/eclair/Documents/GitHub/Premium/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.google.android.youtube.pro.app-merged_res-4 /Users/eclair/Documents/GitHub/Premium/app/build/intermediates/merged_res/debug
+com.google.android.youtube.pro.app-debug-5 /Users/eclair/Documents/GitHub/Premium/app/src/debug/res
+com.google.android.youtube.pro.app-main-6 /Users/eclair/Documents/GitHub/Premium/app/src/main/res

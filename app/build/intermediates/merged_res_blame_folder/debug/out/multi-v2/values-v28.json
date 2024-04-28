@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.google.android.youtube.pro.app-mergeDebugResources-2:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/eclair/Documents/GitHub/Premium/app/src/main/res/values-v28/styles.xml",
+                    "from": {
+                        "startLines": "1,8,15,23",
+                        "startColumns": "1,1,1,1",
+                        "startOffsets": "13,458,914,1435",
+                        "endLines": "7,14,22,25",
+                        "endColumns": "9,9,9,9",
+                        "endOffsets": "456,912,1433,1541"
+                    },
+                    "to": {
+                        "startLines": "2,9,16,24",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,503,962,1486",
+                        "endLines": "8,15,23,26",
+                        "endColumns": "9,9,9,9",
+                        "endOffsets": "498,957,1481,1592"
+                    }
+                }
+            ]
+        }
+    ]
+}

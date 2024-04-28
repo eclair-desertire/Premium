@@ -4,20 +4,12 @@ ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.x
 INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:1:1-28:12
 INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:1:1-28:12
 INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:1:1-28:12
-INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:1:1-28:12
-INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:1:1-28:12
-INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:1:1-28:12
 	package
 		ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:3:2-42
 		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:1:1-28:12
-		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:1:1-28:12
 		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:2:2-60
@@ -35,6 +27,9 @@ ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.x
 		ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:6:19-74
 application
 ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:7:2-27:16
+INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:7:2-27:16
+	android:extractNativeLibs
+		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
 	android:label
 		ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml:9:3-26
 	android:largeHeap
@@ -77,13 +72,7 @@ uses-sdk
 INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
 INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
-INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
-INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
 		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/eclair/Documents/GitHub/Premium/app/src/main/AndroidManifest.xml
