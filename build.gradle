@@ -2,8 +2,16 @@
 
 buildscript {
 	repositories {
+
 		jcenter()
 		google()
+		mavenCentral()
+		maven {
+			url = uri("https://jitpack.io")
+			credentials {
+				username = "jp_3i8s5dnbq6sligip6j0sss0ts7"
+			}
+		}
 	}
 	dependencies {
 		classpath 'com.android.tools.build:gradle:8.1.2'
@@ -15,7 +23,15 @@ buildscript {
 
 allprojects {
 	repositories {
+
 		jcenter()
 		google()
+		mavenCentral()
+		maven {
+			url = uri("https://jitpack.io")
+			credentials {
+				username = "jp_3i8s5dnbq6sligip6j0sss0ts7"
+			}
+		}
 	}
 }
