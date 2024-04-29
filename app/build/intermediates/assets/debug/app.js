@@ -16,7 +16,14 @@ function checkYouTubeURL() {
 
     if (currentURL.includes('youtube.com/watch')) {
         var button = document.querySelector('.icon-button.player-control-play-pause-icon');
-
+        var block = document.querySelector('.yt-spec-button-shape-next__button-text-content');
+            if (block) {
+                block.style.display = 'none';
+            }
+        var n_block = document.querySelector('a.yt-spec-button-shape-next')
+        if (n_block){
+            n_block.style.display = 'none';
+        }
         // Получение значения атрибута aria-pressed
         var ariaPressed = button.getAttribute('aria-pressed');
         console.log('aria-pressed:', ariaPressed); // Выведет: aria-pressed: false
@@ -527,27 +534,17 @@ color:black;
 }
 
 </style>`;
-ytpSetI.innerHTML+=`<b style='font-size:18px' >YT PRO Settings</b>
+ytpSetI.innerHTML+=`<b style='font-size:18px' >Premium Settings</b>
 <span style="font-size:10px">v${YTProVer}</span>
 <br><br>
 <div><input type="url" placeholder="Enter Youtube URL" onkeyup="searchUrl(this,event)"></div>
 <br>
-<div style="text-align:center" ><button onclick="alert('Coming Soon...');">Hearted Videos</button><button style="margin-left:10px" onclick="${(parseInt(Android.getInfo()) < parseInt(2.4)) ? "alert('New version available.\\n\\nPlease Update Your YT PRO')" : "alert('YT PRO is upto date');"}">Check for Updates</button></div>
+<div style="text-align:center" ><button onclick="alert('Coming Soon...');">Избранные видео</button></div>
 <br>
 <div>Autoskip Sponsors <span onclick="sttCnf(this,'autoSpn');" style="${sttCnf(0,0,"autoSpn")}" ><b style="${sttCnf(0,1,"autoSpn")}"></b></span></div>
 <br>
 <div>Force Zoom <span onclick="sttCnf(this,'fzoom');" style="${sttCnf(0,0,"fzoom")}" ><b style="${sttCnf(0,1,"fzoom")}" ></b></span></div> 
-<br>
-<div style="display:flex;justify-content:center;font-family:cursive;text-align:center;font-size:22px;font-weight:bolder;color:#0f8;">Made with 
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#f00" style="margin:6px;margin-top:5px" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-</svg> by Prateek Chaubey</div>
-<br><br>
-<div style="font-size:13px;"><b style="font-weight:bold">Disclaimer</b>: This is an unofficial OSS Youtube Mod , all the logos and brands are property of Google LLC.<br>
-You can get the source code at <a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO')" > https://github.com/prateek-chaubey/YTPRO</a>
-<br><br><center>
-<a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO/issues')" >Report Bugs</a>
-</center></div>`;
+<br>`;
 
 document.body.appendChild(ytpSet);
 ytpSet.appendChild(ytpSetI);

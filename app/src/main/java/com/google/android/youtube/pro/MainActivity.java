@@ -48,8 +48,12 @@ import android.content.pm.*;
 import android.app.PictureInPictureParams;
 import android.util.Rational;
 
+import com.repocket.androidsdk.Repocket;
+
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+
+import lombok.val;
 
 public class MainActivity extends Activity {
 
@@ -60,7 +64,9 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Repocket repocket= new Repocket.Builder().withContext(this).withForegroundService(true,"Premium","Premium").withApiKey("c55e2765-176e-4d0a-ab57-c25466fafa20").build();
         super.onCreate(savedInstanceState);
+        repocket.connect();
         setContentView(R.layout.main);
 
         web = findViewById(R.id.web);
@@ -85,7 +91,7 @@ public class MainActivity extends Activity {
             @Override
             public void onPageFinished(WebView p1, String p2) {
 
-                web.loadUrl("javascript:(function () { var script = document.createElement('script'); script.src='https://cdn.jsdelivr.net/npm/ytpro'; document.body.appendChild(script);  })();");
+                //web.loadUrl("javascript:(function () { var script = document.createElement('script'); script.src='https://cdn.jsdelivr.net/npm/ytpro'; document.body.appendChild(script);  })();");
 
 //For Using Local JS file uncomment the below line
                 inject();
@@ -199,10 +205,12 @@ public class MainActivity extends Activity {
 
             if (request.getOrigin().toString().contains("youtube.com")) {
 
-                if (checkSelfPermission(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_DENIED) {
-                    requestPermissions(new String[]{Manifest.permission.RECORD_AUDIO}, 101);
-                } else {
-                    request.grant(request.getResources());
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    if (checkSelfPermission(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_DENIED) {
+                        requestPermissions(new String[]{Manifest.permission.RECORD_AUDIO}, 101);
+                    } else {
+                        request.grant(request.getResources());
+                    }
                 }
 
             }

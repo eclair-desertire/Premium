@@ -1,4 +1,4 @@
-#Thu Mar 14 07:09:15 ALMT 2024
-base.0=/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out
+#Mon Apr 29 09:16:49 UZT 2024
+base.0=/Users/eclair/Documents/GitHub/Premium/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
 renamed.0=classes.dex
-path.0=classes.dex

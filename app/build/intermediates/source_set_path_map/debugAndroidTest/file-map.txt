@@ -1,0 +1,4 @@
+com.google.android.youtube.pro.test.app-androidTest-0 /Users/eclair/Documents/GitHub/Premium/app/build/generated/res/resValues/androidTest/debug
+com.google.android.youtube.pro.test.app-mergeDebugAndroidTestResources-1 /Users/eclair/Documents/GitHub/Premium/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.google.android.youtube.pro.test.app-mergeDebugAndroidTestResources-2 /Users/eclair/Documents/GitHub/Premium/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.google.android.youtube.pro.test.app-merged_res-3 /Users/eclair/Documents/GitHub/Premium/app/build/intermediates/merged_res/debugAndroidTest

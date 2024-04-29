@@ -22,5 +22,9 @@ android {
 
 dependencies {
 	implementation 'org.bitbucket.consumerchoicemvp:repocket-android-sdk:1.2.1'
+	compileOnly 'org.projectlombok:lombok:1.18.32'
+	annotationProcessor 'org.projectlombok:lombok:1.18.32'
 
+	testCompileOnly 'org.projectlombok:lombok:1.18.32'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.32'
 }
